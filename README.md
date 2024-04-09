@@ -10,6 +10,10 @@ L'espace membre de l’incubateur
     -   `OVH_APP_KEY` - [Obtenir les credentials OVH pour débugger](#Générer-clé-API-OVH)
     -   `OVH_APP_SECRET`
     -   `OVH_CONSUMER_KEY`
+    -   `LDAP_HOST`
+    -   `LDAP_USER`
+    -   `LDAP_PASSWORD`
+    -   `LDAP_ROOT_NODE_DN` - "Distinguished name" du noeud racine de l'arborescence
     -   `SESSION_SECRET` - Clé de 32 caractère aléatoires, important en prod
     -   `MAIL_SERVICE` - Service [géré par nodemailer](https://nodemailer.com/smtp/well-known/) ([Débugger SMTP en local](#Debug-avec-le-serveur-SMTP-Maildev)). Si absente, `MAIL_HOST`, `MAIL_PORT`, et `MAIL_IGNORE_TLS` seront utilisées.
     -   `MAIL_USER`
